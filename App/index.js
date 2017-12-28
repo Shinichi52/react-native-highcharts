@@ -87,6 +87,7 @@ class ChartWeb extends Component {
                   scalesPageToFit={true}
                   scrollEnabled={false}
                   automaticallyAdjustContentInsets={true}
+                  onMessage={this.props.onMessage}
                   {...this.props}
               />
           </View>
